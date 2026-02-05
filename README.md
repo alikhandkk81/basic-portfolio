@@ -31,6 +31,7 @@ This project provides a clean structure for showcasing your personal information
 1. Clone the repository
    
   git clone https://github.com/alikhandkk81/basic-portfolio.git
+  
   cd basic-portfolio
 
 3. Create and activate a virtual environment
