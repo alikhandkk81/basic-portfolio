@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<section class='hero'>
+</section>
+
+<section class='projects'>
+    <h2>Fetured Projects</h2>
+    <div class='project-grid'>
+        {% for project in projects%}
+        <div class='project-card'>
+            <img src="{{project.image.url}}" alt="Project 1">
+            <h3>{{project.title}}</h3>
+        </div>
+        {%endfor%}
+    </div>
+</section>
+
+{% endblock %}
