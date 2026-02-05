@@ -6,15 +6,6 @@ This project provides a clean structure for showcasing your personal information
 ![Portfolio Screenshot 1](screenshot.png)
 ![Portfolio Screenshot 2](screenshot2.png)
 
-📁 Project Structure
-
-basic-portfolio/
-    basic_portfolio/        # Django project settings & URLs
-    portfolio/              # Main Django app (views, URLs, templates)
-    static/                 # CSS, JS, images
-    templates/              # HTML templates
-    manage.py
-
 
 ✨ Features
 
